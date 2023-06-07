@@ -1,0 +1,55 @@
+:root {
+    --color-white: hsl(0, 0%, 100%);
+    --color-light: hsl(212, 45%, 89%);
+    --color-blue: hsl(220, 15%, 55%);
+    --color-dark-blue: hsl(0, 0%, 3%);
+}
+.body {
+    margin: 0;
+    text-size-adjust: none;
+    background-color: lightgray;
+    font-family: outfit,sans-serif;
+    font-size: 15px;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    align-items: center;
+
+
+}
+.img {
+    max-width: 100%;
+    height: auto;
+    align-self: center;
+}
+.main {
+    background-color: white;
+    width: 320px;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 1rem;
+    text-align: center;
+    margin: 1rem;
+    place-content: center;
+    align-items: center;
+
+}
+.img { 
+    border-radius: 1rem;
+
+}
+.h1 {
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-top: 1rem;
+    color: darkblue;
+
+}
+.p { 
+    line-height: 1rem;
+    color: blue;
+    margin: auto;
+}
+
+
